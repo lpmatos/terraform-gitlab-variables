@@ -3,11 +3,13 @@ Terraform
 
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/lpmatos)
 
+![Alt text](docs/TERRAFORM.png?raw=true "Terraform")
+
 This is a simple Terraform script that uses the GitLab provider to set variables at the group and project level
 
 ## Copyright (c)
 
-Lucca Pessoa da Silva Matos (c) 2019 - **GitHub Repository**
+Lucca Pessoa da Silva Matos (c) 2019 - **GitHub Repository**.
 
 ## Getting Started
 
@@ -51,6 +53,8 @@ The infrastructure Terraform can manage includes low-level components such as co
 terraform | **Terraform is an open source infrastructure as a code software tool created by HashiCorp** | [Terraform](https://www.terraform.io/docs/index.html)
 
 ## Usage
+
+![Alt text](docs/EXECUTION.png?raw=true "Terraform Commands")
 
 * <kbd>terraform init</kbd> - Install dependencies
 * <kbd>terraform validade</kbd> - Validate Terraform
