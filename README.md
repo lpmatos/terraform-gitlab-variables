@@ -21,11 +21,22 @@ This will give access on your **local machine** to this project.
 
 ## Organization
 
-<-- PUT SOME INFORTION -->
+* **/docs** is the directory where we have all documentation files.
+* **CHANGELOG.md** is a versioning file usend to control development versions.
+* **README.md** is an optional file. A human-readable **README** file.
+* Files ending in .tf are terraform files.
+* **.gitlab-ci.yml** is the file that uses the templates find in **pipeline** folder.
+* The files found in the project root are support files.
 
 ## Description
 
-<-- PUT SOME INFORTION -->
+Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
+
+Configuration files describe to Terraform the components needed to run a single application or your entire datacenter. Terraform generates an execution plan describing what it will do to reach the desired state, and then executes it to build the described infrastructure. As the configuration changes, Terraform is able to determine what changed and create incremental execution plans which can be applied.
+
+The infrastructure Terraform can manage includes low-level components such as compute instances, storage, and networking, as well as high-level components such as DNS entries, SaaS features, etc.
+
+![Alt text](docs/TERRAFORM-GITLAB.png?raw=true "Terraform with GitLab Provider")
 
 ## Pre-Requisites
 
