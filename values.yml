@@ -1,13 +1,7 @@
-# =============================================================================
-# VALUES DEFINITION
-# =============================================================================
-
----
 token: ""
-enable_gitlab_group_variables: false
+enable_gitlab_group_variables: true
 group: ""
 project: ""
 envs:
-    A: "A"
-    B: "B"
-    
+  A: "A"
+  B: "B"
