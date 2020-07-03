@@ -82,8 +82,6 @@ To this project you yeed:
 
 ### How to use it?
 
-#### Locale
-
 1. Set the terraform variables.
 2. Run Init, Validate, Plan and Apply.
 3. Profit.
